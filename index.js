@@ -100,6 +100,7 @@ const ScrollableTabView = createReactClass({
 
     return {
       currentPage: this.props.initialPage,
+      refState: null,
       scrollValue,
       scrollXIOS,
       positionAndroid,
